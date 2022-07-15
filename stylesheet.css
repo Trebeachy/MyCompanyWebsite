@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/fonts/BebasNeue-Regular");
+  }
+
+body {
+    font-family: "Bebas Neue";
+}
+
+ul {
+    margin: 0px; padding: 0px;
+}
+
+li {
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-bottom: 1px;
+}
+
+li:hover {
+    background-color: orangered;
+}
+
+.navlinks {
+    background-color: orange;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+    background-image: url("images/banner.jpg");
+    padding: 50px 0;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.introduction {
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+}
+
+.ourfood {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+
+    .food {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
